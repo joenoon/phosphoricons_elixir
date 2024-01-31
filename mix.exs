@@ -35,7 +35,7 @@ defmodule PhosphoriconsElixir.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix_html, "~> 3.3.1"},
+      {:phoenix_html, ">= 3.3.1"},
       {:phoenix_live_view, ">= 0.19.0", optional: true},
       {:ex_doc, "~> 0.29.4", only: :dev, runtime: false},
       # Testing
